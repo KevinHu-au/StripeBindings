@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+    <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='Card.Builder']" /> 
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='AccountParams']" />    
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='AddressJapanParams']" />     
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='PersonTokenParams']" />
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='SourceParams']" />
+    <remove-node path="/api/package[@name='com.stripe.android']/class[@name='PaymentAuthConfig']" />
+    <remove-node path="/api/package[@name='com.stripe.android']/class[@name='PaymentSessionConfig']" />
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='SourceCardData']" /> 
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='Address']" /> 
+    <remove-node path="/api/package[@name='com.stripe.android.model.wallets']/class[@name='Wallet']" /> 
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='PaymentMethod.Builder']" /> 
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='PaymentMethod.Card.Builder']" /> 
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='PaymentMethod.BillingDetails.Builder']" /> 
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='PaymentMethodCreateParams.Card.Builder']" /> 
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='PaymentMethodCreateParams.Fpx.Builder']" /> 
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='PaymentMethodCreateParams.Ideal.Builder']" /> 
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='PaymentMethodCreateParams.SepaDebit.Builder']" /> 
+    <attr path="/api/package[@name='com.stripe.android']/class[@name='StripeIntentResult']/method[@name='getOutcome' and count(parameter)=0]" name="propertyName"> 
+        ResultOutcome
+    </attr>
+    <attr path="/api/package[@name='com.stripe.android.model']/class[@name='Source']/method[@name='getUsage' and count(parameter)=0]" name="propertyName"> 
+        SourceUsage
+    </attr> 
+    <attr path="/api/package[@name='com.stripe.android.model']/class[@name='SourceRedirect']/method[@name='getStatus' and count(parameter)=0]" name="propertyName"> 
+        SourceRedirectStatus
+    </attr>
+    <attr path="/api/package[@name='com.stripe.android.model']/class[@name='SourceCodeVerification']/method[@name='getStatus' and count(parameter)=0]" name="propertyName"> 
+        VerificationStatus
+    </attr>
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='ConfirmPaymentIntentParams']/method[@name='withShouldUseStripeSdk' and count(parameter)=1 and parameter[1][@type='boolean']]" />
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='ConfirmSetupIntentParams']/method[@name='withShouldUseStripeSdk' and count(parameter)=1 and parameter[1][@type='boolean']]" />
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='StripeIntent.NextActionData']" />
+    <remove-node path="/api/package[@name='com.stripe.android']/class[@name='StripeIntentResult']/method[@name='getIntent' and count(parameter)=0]" />
+</metadata>
