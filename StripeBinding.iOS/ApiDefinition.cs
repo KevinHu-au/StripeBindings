@@ -4493,6 +4493,7 @@ namespace StripeBinding.iOS
 
 	// @interface STDSCustomization : NSObject <NSCopying>
 	[BaseType(typeof(NSObject))]
+	[Protocol]
 	interface STDSCustomization : INSCopying
 	{
 		// @property (nonatomic) UIFont * _Nullable font;
@@ -4718,6 +4719,7 @@ namespace StripeBinding.iOS
 	// @interface STDSWarning : NSObject
 	[BaseType(typeof(NSObject))]
 	[DisableDefaultCtor]
+	[Protocol]
 	interface STDSWarning
 	{
 		// -(instancetype _Nonnull)initWithIdentifier:(NSString * _Nonnull)identifier message:(NSString * _Nonnull)message severity:(STDSWarningSeverity)severity __attribute__((objc_designated_initializer));
@@ -4740,6 +4742,7 @@ namespace StripeBinding.iOS
 
 	// @interface STDSException : NSException
 	[BaseType(typeof(NSException))]
+	[Protocol]
 	interface STDSException
 	{
 		// @property (readonly, nonatomic) NSString * _Nonnull message;
@@ -4749,24 +4752,28 @@ namespace StripeBinding.iOS
 
 	// @interface STDSAlreadyInitializedException : STDSException
 	[BaseType(typeof(STDSException))]
+	[Protocol]
 	interface STDSAlreadyInitializedException
 	{
 	}
 
 	// @interface STDSInvalidInputException : STDSException
 	[BaseType(typeof(STDSException))]
+	[Protocol]
 	interface STDSInvalidInputException
 	{
 	}
 
 	// @interface STDSNotInitializedException : STDSException
 	[BaseType(typeof(STDSException))]
+	[Protocol]
 	interface STDSNotInitializedException
 	{
 	}
 
 	// @interface STDSRuntimeException : STDSException
 	[BaseType(typeof(STDSException))]
+	[Protocol]
 	interface STDSRuntimeException
 	{
 	}
@@ -4815,6 +4822,7 @@ namespace StripeBinding.iOS
 	// @interface STDSErrorMessage : NSObject <STDSJSONEncodable, STDSJSONDecodable>
 	[BaseType(typeof(NSObject))]
 	[DisableDefaultCtor]
+	[Protocol]
 	interface STDSErrorMessage : STDSJSONEncodable, STDSJSONDecodable
 	{
 		// -(instancetype _Nonnull)initWithErrorCode:(NSString * _Nonnull)errorCode errorComponent:(NSString * _Nonnull)errorComponent errorDescription:(NSString * _Nonnull)errorDescription errorDetails:(NSString * _Nullable)errorDetails messageVersion:(NSString * _Nonnull)messageVersion acsTransactionIdentifier:(NSString * _Nullable)acsTransactionIdentifier errorMessageType:(NSString * _Nonnull)errorMessageType;
@@ -4857,6 +4865,7 @@ namespace StripeBinding.iOS
 	// @interface STDSProtocolErrorEvent : NSObject
 	[BaseType(typeof(NSObject))]
 	[DisableDefaultCtor]
+	[Protocol]
 	interface STDSProtocolErrorEvent
 	{
 		// -(instancetype _Nonnull)initWithSDKTransactionIdentifier:(NSString * _Nonnull)identifier errorMessage:(STDSErrorMessage * _Nonnull)errorMessage;
@@ -4875,6 +4884,7 @@ namespace StripeBinding.iOS
 	// @interface STDSRuntimeErrorEvent : NSObject
 	[BaseType(typeof(NSObject))]
 	[DisableDefaultCtor]
+	[Protocol]
 	interface STDSRuntimeErrorEvent
 	{
 		// @property (readonly, nonatomic) NSString * _Nonnull errorCode;
@@ -4897,6 +4907,7 @@ namespace StripeBinding.iOS
 
 	// @interface STDSAuthenticationRequestParameters : NSObject <STDSJSONEncodable>
 	[BaseType(typeof(NSObject))]
+	[Protocol]
 	interface STDSAuthenticationRequestParameters : STDSJSONEncodable
 	{
 		// -(instancetype _Nonnull)initWithSDKTransactionIdentifier:(NSString * _Nonnull)sdkTransactionIdentifier deviceData:(NSString * _Nullable)deviceData sdkEphemeralPublicKey:(NSString * _Nonnull)sdkEphemeralPublicKey sdkAppIdentifier:(NSString * _Nonnull)sdkAppIdentifier sdkReferenceNumber:(NSString * _Nonnull)sdkReferenceNumber messageVersion:(NSString * _Nonnull)messageVersion;
@@ -5089,6 +5100,7 @@ namespace StripeBinding.iOS
 	// @interface STDSCompletionEvent : NSObject
 	[BaseType(typeof(NSObject))]
 	[DisableDefaultCtor]
+	[Protocol]
 	interface STDSCompletionEvent
 	{
 		// -(instancetype _Nonnull)initWithSDKTransactionIdentifier:(NSString * _Nonnull)identifier transactionStatus:(NSString * _Nonnull)transactionStatus __attribute__((objc_designated_initializer));
@@ -5120,6 +5132,7 @@ namespace StripeBinding.iOS
 
 	// @interface STDSTransaction : NSObject
 	[BaseType(typeof(NSObject))]
+	[Protocol]
 	interface STDSTransaction
 	{
 		// @property (readonly, copy, nonatomic) NSString * _Nonnull presentedChallengeUIType;
