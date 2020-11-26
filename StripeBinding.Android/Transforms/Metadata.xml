@@ -40,4 +40,11 @@
     <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='ConfirmSetupIntentParams']/method[@name='withShouldUseStripeSdk' and count(parameter)=1 and parameter[1][@type='boolean']]" />
     <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='StripeIntent.NextActionData']" />
     <remove-node path="/api/package[@name='com.stripe.android']/class[@name='StripeIntentResult']/method[@name='getIntent' and count(parameter)=0]" />
+    <attr path="/api/package[@name='com.stripe.android.model']/class[@name='PaymentMethod.Card']/field[@name='brand']" name="name"> 
+        CardBrand
+    </attr>
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='PaymentIntent.Creator']" />
+    <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='SourceTypeModel']" />
+    <remove-node path="/api/package[@name='com.stripe.android']/class[@name='SetupIntentResult.CREATOR']" />
+    <remove-node path="/api/package[@name='com.stripe.android']/class[@name='PaymentIntentResult.CREATOR']" />
 </metadata>

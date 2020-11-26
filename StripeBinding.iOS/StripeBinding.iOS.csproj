@@ -13,7 +13,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>StripeBinding.iOS</PackageId>
-    <PackageVersion>19.4.0</PackageVersion>
+    <PackageVersion>19.4.0.1</PackageVersion>
     <Authors>Kevin Hu</Authors>
     <Copyright>@2020</Copyright>
     <Owners>UbiPark</Owners>

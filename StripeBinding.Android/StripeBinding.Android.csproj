@@ -20,7 +20,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>StripeBinding.Android</PackageId>
-    <PackageVersion>16.1.0</PackageVersion>
+    <PackageVersion>14.4.1.0</PackageVersion>
     <Authors>Kevin Hu</Authors>
     <Copyright>@2020</Copyright>
     <Owners>UbiPark</Owners>
@@ -72,7 +72,7 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <LibraryProjectZip Include="Jars\stripe-android-16.1.0.aar" />
+    <LibraryProjectZip Include="Jars\stripe-android-14.4.1.aar" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.Bindings.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
