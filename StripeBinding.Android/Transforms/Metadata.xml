@@ -47,4 +47,5 @@
     <remove-node path="/api/package[@name='com.stripe.android.model']/class[@name='SourceTypeModel']" />
     <remove-node path="/api/package[@name='com.stripe.android']/class[@name='SetupIntentResult.CREATOR']" />
     <remove-node path="/api/package[@name='com.stripe.android']/class[@name='PaymentIntentResult.CREATOR']" />
+    <remove-node path="/api/package[@name='com.stripe.android']/class[@name='IssuingCardPinService']" />
 </metadata>
