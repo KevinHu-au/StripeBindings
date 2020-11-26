@@ -20,7 +20,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <PackOnBuild>true</PackOnBuild>
     <PackageId>StripeBinding.Android</PackageId>
-    <PackageVersion>14.4.1.1</PackageVersion>
+    <PackageVersion>14.4.1.2</PackageVersion>
     <Authors>Kevin Hu</Authors>
     <Copyright>@2020</Copyright>
     <Owners>UbiPark</Owners>

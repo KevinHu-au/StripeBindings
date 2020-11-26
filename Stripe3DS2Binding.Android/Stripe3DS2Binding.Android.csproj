@@ -26,7 +26,7 @@
     <Summary>Stripe.3DS2.Android</Summary>
     <Title>Stripe.3DS2.Android</Title>
     <PackOnBuild>true</PackOnBuild>
-    <Description>Stripe.3DS2.Android</Description>
+    <Description>Stripe.3DS2.Android which is a dependency for Stripe.Android</Description>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
