@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeBinding.iOS", "Stripe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeBinding.Android", "StripeBinding.Android\StripeBinding.Android.csproj", "{2C032FCF-8DA6-489D-B547-0DE1CD98BC22}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stripe3DS2Binding.Android", "Stripe3DS2Binding.Android\Stripe3DS2Binding.Android.csproj", "{40CC2078-94FC-4BFD-B07F-DBC428CA9B85}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,5 +21,9 @@ Global
 		{2C032FCF-8DA6-489D-B547-0DE1CD98BC22}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2C032FCF-8DA6-489D-B547-0DE1CD98BC22}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2C032FCF-8DA6-489D-B547-0DE1CD98BC22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40CC2078-94FC-4BFD-B07F-DBC428CA9B85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40CC2078-94FC-4BFD-B07F-DBC428CA9B85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40CC2078-94FC-4BFD-B07F-DBC428CA9B85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40CC2078-94FC-4BFD-B07F-DBC428CA9B85}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
