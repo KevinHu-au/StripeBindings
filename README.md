@@ -2,8 +2,10 @@
 
 The iOS and Android Binding libraries for Stripe iOS/Android SDK. 
 
-StripeBinding.iOS: The Xamarin binding library for Stripe iOS;
+StripeBinding.iOS: The Xamarin binding library for Stripe iOS; 
+
 StripeBinding.Android: The Xamarin bindig library for Stripe Android;
+
 String3DSC2Binding.Android: The Xamarin binding for Stripe 3D Security 2 Android library. This is required for Android app project
 
 Stripe docs:
